@@ -1,5 +1,5 @@
-# Simple Linux Character Driver
-#A simple Linux character device driver built in C. Implements open, read, write, release. Creates /dev/virtual_device. Developed as part of low-level system programming practice.
+# virtual_device_driver
+A simple Linux character device driver written in C. It implements basic `open`, `read`, `write`, and `release` operations, and creates a character device node `/dev/virtual_device`. User-space programs can interact with this device file to write data to a kernel buffer and read it back. This project was de
 
 Create an inode at master 301
 ```bash
