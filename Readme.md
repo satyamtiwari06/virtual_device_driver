@@ -1,4 +1,5 @@
 # Simple Linux Character Driver
+#A simple Linux character device driver built in C. Implements open, read, write, release. Creates /dev/virtual_device. Developed as part of low-level system programming practice.
 
 Create an inode at master 301
 ```bash
